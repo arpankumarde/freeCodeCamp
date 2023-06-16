@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(58, 58, 158, 0.8);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+form {
+    width: 80%;
+    background-color: rgba(27, 27, 50, 0.8);
+    margin: 0 auto;
+}
