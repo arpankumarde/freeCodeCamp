@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav,
+main {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+nav {
+  min-width: 250px;
+  display: fixed;
+}
+
+nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    flex-direction: column;
+  }
+  nav,
+  main {
+    height: auto;
+    width: 100%;
+  }
+}
